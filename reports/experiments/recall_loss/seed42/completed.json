@@ -1,0 +1,7 @@
+{
+  "seed": 42,
+  "training_seconds": 1401.024799400002,
+  "checkpoint_sha256": "97b37bc9f0466722feb9d1f494efe10a6248d657d37dc6942da346a84f831311",
+  "epochs": 30,
+  "loss_name": "tversky_bce"
+}

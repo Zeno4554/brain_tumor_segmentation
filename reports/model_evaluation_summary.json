@@ -1,0 +1,59 @@
+{
+  "checkpoint_sha256": "fda957e3a3cb4b78419099ef9987885648fc35176c59e0dd61bde3873610c247",
+  "prediction_threshold": 0.7,
+  "inference_rerun": false,
+  "source": "Existing fixed-checkpoint test predictions summarized in saved patient and slice metrics",
+  "patients": 22,
+  "slices": 778,
+  "mean_dice": 0.8138823397433803,
+  "median_dice": 0.8777997973654725,
+  "pooled_precision": 0.8445888128464649,
+  "pooled_recall": 0.7850867297618205,
+  "false_alarms": 18,
+  "tumor_free_slices": 483,
+  "missed_annotated_slices": 20,
+  "annotated_slices": 295,
+  "patients_with_zero_overlap": 0,
+  "patients_below_0_5_dice": 2,
+  "unet_beats_tuned_baseline_patients": 22,
+  "tuned_baseline_beats_unet_patients": 0,
+  "ties": 0,
+  "worst_patients": [
+    {
+      "patient": "TCGA_DU_7018_19911220",
+      "unet_dice": 0.418556919170103,
+      "precision": 0.9440652889800984,
+      "recall": 0.2688841464243479
+    },
+    {
+      "patient": "TCGA_DU_5852_19950709",
+      "unet_dice": 0.4551097317617478,
+      "precision": 0.5211982736735212,
+      "recall": 0.4038953373991737
+    },
+    {
+      "patient": "TCGA_CS_6665_20010817",
+      "unet_dice": 0.5644024075654247,
+      "precision": 0.4143677798118805,
+      "recall": 0.8847553578649414
+    },
+    {
+      "patient": "TCGA_FG_8189_20030516",
+      "unet_dice": 0.6812647449620614,
+      "precision": 0.919751052535237,
+      "recall": 0.5409892547212473
+    },
+    {
+      "patient": "TCGA_HT_7608_19940304",
+      "unet_dice": 0.786374213445707,
+      "precision": 0.7309681052577689,
+      "recall": 0.850868567682727
+    }
+  ],
+  "limitations": [
+    "One split of 22 patients; test cases previously inspected",
+    "Shipped checkpoint uses legacy augmentation seeding",
+    "Source-institution groups contain only 4-7 patients; no independent external cohort tested"
+  ],
+  "consistency_checks_passed": true
+}

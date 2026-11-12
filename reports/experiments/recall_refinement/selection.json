@@ -1,0 +1,142 @@
+{
+  "selected_low": 0.4,
+  "high": 0.7,
+  "passes_prespecified_gates": true,
+  "candidates": [
+    {
+      "low": 0.3,
+      "eligible": true,
+      "worst_patient_dice_change": -0.02076753970457179,
+      "mean_change_mean_dice": -0.0008655709779484821,
+      "mean_change_pooled_recall": 0.0184739767972244,
+      "mean_change_pooled_precision": -0.01878106432561562,
+      "mean_change_false_alarms": 0.0,
+      "mean_change_missed_slices": 0.0,
+      "per_seed": [
+        {
+          "mean_dice": -0.0012498621658413311,
+          "pooled_recall": 0.01618107111888689,
+          "pooled_precision": -0.017011717779277347,
+          "false_alarms": 0.0,
+          "missed_slices": 0.0
+        },
+        {
+          "mean_dice": -0.0008283138892114517,
+          "pooled_recall": 0.017710015350722697,
+          "pooled_precision": -0.017652583370915687,
+          "false_alarms": 0.0,
+          "missed_slices": 0.0
+        },
+        {
+          "mean_dice": -0.0005185368787926636,
+          "pooled_recall": 0.021530843922063614,
+          "pooled_precision": -0.021678891826653834,
+          "false_alarms": 0.0,
+          "missed_slices": 0.0
+        }
+      ]
+    },
+    {
+      "low": 0.4,
+      "eligible": true,
+      "worst_patient_dice_change": -0.015534300009791058,
+      "mean_change_mean_dice": -0.0004667996807043995,
+      "mean_change_pooled_recall": 0.013875909374562734,
+      "mean_change_pooled_precision": -0.01385320017268669,
+      "mean_change_false_alarms": 0.0,
+      "mean_change_missed_slices": 0.0,
+      "per_seed": [
+        {
+          "mean_dice": -0.0007852099745322416,
+          "pooled_recall": 0.012133505326792693,
+          "pooled_precision": -0.012402689207142603,
+          "false_alarms": 0.0,
+          "missed_slices": 0.0
+        },
+        {
+          "mean_dice": -0.0005437891425287278,
+          "pooled_recall": 0.01327025544705529,
+          "pooled_precision": -0.013202687639905175,
+          "false_alarms": 0.0,
+          "missed_slices": 0.0
+        },
+        {
+          "mean_dice": -7.139992505222903e-05,
+          "pooled_recall": 0.016223967349840218,
+          "pooled_precision": -0.01595422367101229,
+          "false_alarms": 0.0,
+          "missed_slices": 0.0
+        }
+      ]
+    },
+    {
+      "low": 0.5,
+      "eligible": false,
+      "worst_patient_dice_change": -0.010080850012503029,
+      "mean_change_mean_dice": -0.00010237267464363597,
+      "mean_change_pooled_recall": 0.009583222262735336,
+      "mean_change_pooled_precision": -0.00931731052901815,
+      "mean_change_false_alarms": 0.0,
+      "mean_change_missed_slices": 0.0,
+      "per_seed": [
+        {
+          "mean_dice": -0.0004558052301465443,
+          "pooled_recall": 0.008435237415318264,
+          "pooled_precision": -0.008437933331686187,
+          "false_alarms": 0.0,
+          "missed_slices": 0.0
+        },
+        {
+          "mean_dice": -0.000147126181173296,
+          "pooled_recall": 0.00919511350649116,
+          "pooled_precision": -0.008882475257398825,
+          "false_alarms": 0.0,
+          "missed_slices": 0.0
+        },
+        {
+          "mean_dice": 0.00029581338738893237,
+          "pooled_recall": 0.011119315866396584,
+          "pooled_precision": -0.010631522997969434,
+          "false_alarms": 0.0,
+          "missed_slices": 0.0
+        }
+      ]
+    },
+    {
+      "low": 0.6,
+      "eligible": false,
+      "worst_patient_dice_change": -0.0049900711511885465,
+      "mean_change_mean_dice": 7.329299399239098e-05,
+      "mean_change_pooled_recall": 0.005059712574825848,
+      "mean_change_pooled_precision": -0.0047768716472901636,
+      "mean_change_false_alarms": 0.0,
+      "mean_change_missed_slices": 0.0,
+      "per_seed": [
+        {
+          "mean_dice": -8.702845950170346e-05,
+          "pooled_recall": 0.004528616382070583,
+          "pooled_precision": -0.00431838553029551,
+          "false_alarms": 0.0,
+          "missed_slices": 0.0
+        },
+        {
+          "mean_dice": 4.09926936327798e-05,
+          "pooled_recall": 0.004813569916260474,
+          "pooled_precision": -0.004560746587628839,
+          "false_alarms": 0.0,
+          "missed_slices": 0.0
+        },
+        {
+          "mean_dice": 0.0002659147478460966,
+          "pooled_recall": 0.005836951426146486,
+          "pooled_precision": -0.005451482823946141,
+          "false_alarms": 0.0,
+          "missed_slices": 0.0
+        }
+      ]
+    }
+  ],
+  "test_patients_evaluated": 0,
+  "shipped_model_changed": false,
+  "deployment_status": "Not deployed; development-only candidate"
+}

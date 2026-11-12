@@ -1,0 +1,14 @@
+{
+  "mean_dice_change": -0.0035428824409758602,
+  "paired_bootstrap_95_percent_interval": [
+    -0.026635577454097,
+    0.014767982012346996
+  ],
+  "patients_improved": 10,
+  "patients_worsened": 4,
+  "patients_unchanged": 0,
+  "validation_patients": 14,
+  "test_patients_evaluated": 0,
+  "reference_checkpoint_sha256": "fda957e3a3cb4b78419099ef9987885648fc35176c59e0dd61bde3873610c247",
+  "candidate_checkpoint_sha256": "56ee017dc235ed7bacf0eeb7b888c7b457e541b8fa209fee1b8896b2cdf61bc9"
+}

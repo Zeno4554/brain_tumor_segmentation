@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "shipped_checkpoint_sha256": "fda957e3a3cb4b78419099ef9987885648fc35176c59e0dd61bde3873610c247",
+  "shipped_epoch": 21,
+  "shipped_augmentation_seeding": "legacy_fixed_transform_seed",
+  "shipped_threshold": 0.7,
+  "normalized_study_validation_patients": 14,
+  "deployed_model_test_patients": 22,
+  "whole_volume_wins_all_seeds": true,
+  "completed_runs": [
+    {
+      "run": "whole_volume_seed42",
+      "completed_epochs": 30,
+      "attempt": 1,
+      "selected_epoch": 27,
+      "fingerprint_verified": true
+    },
+    {
+      "run": "foreground_nonzero_seed42",
+      "completed_epochs": 30,
+      "attempt": 1,
+      "selected_epoch": 25,
+      "fingerprint_verified": true
+    },
+    {
+      "run": "whole_volume_seed43",
+      "completed_epochs": 30,
+      "attempt": 1,
+      "selected_epoch": 13,
+      "fingerprint_verified": true
+    },
+    {
+      "run": "foreground_nonzero_seed43",
+      "completed_epochs": 30,
+      "attempt": 1,
+      "selected_epoch": 19,
+      "fingerprint_verified": true
+    },
+    {
+      "run": "whole_volume_seed44",
+      "completed_epochs": 30,
+      "attempt": 1,
+      "selected_epoch": 13,
+      "fingerprint_verified": true
+    },
+    {
+      "run": "foreground_nonzero_seed44",
+      "completed_epochs": 30,
+      "attempt": 1,
+      "selected_epoch": 29,
+      "fingerprint_verified": true
+    }
+  ],
+  "baseline_verified": true,
+  "patient_and_institution_error_totals_match": true,
+  "controller_recovery": "Controller failed during whole_volume_seed43 after a transient status-file rename lock. Training continued through epoch 30. Controller restart verified existing jobs and registered that completed run before starting foreground_nonzero_seed43. All six training jobs completed on attempt 1.",
+  "live_demo_identity_and_upload_verified": true
+}

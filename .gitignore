@@ -1,0 +1,61 @@
+# Local datasets, weights and generated runs (retain directory instructions).
+/data/*
+!/data/README.md
+/checkpoints/*
+!/checkpoints/README.md
+/outputs/
+
+# Environments and caches.
+.venv/
+venv/
+.uv-cache/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Model binaries, arrays and raw medical images belong in local storage.
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.npz
+*.npy
+*.h5
+*.hdf5
+*.tif
+*.tiff
+*.nii
+*.nii.gz
+*.dcm
+
+# Machine configuration and credentials.
+.env
+.env.*
+!.env.example
+/.aws/
+/.codex/
+/.agents/
+*.pem
+*.key
+/.vscode/*
+!/.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Transient files and local bundles.
+*.log
+*.tmp
+*.bak
+*.zip
+*.tar
+*.tar.gz

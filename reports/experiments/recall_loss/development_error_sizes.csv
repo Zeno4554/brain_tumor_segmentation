@@ -1,0 +1,9 @@
+model,size_group,slices,completely_missed,zero_overlap,annotated_pixels,missed_pixels,false_alarms
+seed42,1-99 pixels,3,3,3,156,156,0
+seed42,100-499 pixels,25,4,4,7813,1865,0
+seed42,>=500 pixels,144,3,3,318400,43021,0
+seed42,tumor_free,269,0,0,0,0,2
+shipped,1-99 pixels,3,2,2,156,125,0
+shipped,100-499 pixels,25,4,4,7813,2032,0
+shipped,>=500 pixels,144,3,3,318400,44255,0
+shipped,tumor_free,269,0,0,0,0,5

@@ -1,0 +1,9 @@
+{
+  "checkpoint_sha256": "fda957e3a3cb4b78419099ef9987885648fc35176c59e0dd61bde3873610c247",
+  "checkpoint_epoch": 21,
+  "augmentation_seeding": "legacy_fixed_transform_seed",
+  "normalization_mode": "whole_volume",
+  "prediction_threshold": 0.7,
+  "checkpoint_file": "./checkpoints/best.pt",
+  "metrics_file": "./outputs/metrics.json"
+}

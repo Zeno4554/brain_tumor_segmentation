@@ -1,0 +1,8 @@
+{
+  "mode": "foreground_nonzero",
+  "seed": 44,
+  "attempt": 1,
+  "checkpoint": "checkpoints/experiments/normalization_multiseed/foreground_nonzero_seed44/best.pt",
+  "checkpoint_sha256": "3eb601d8c58a8e6816dfc05bfd5ad9ab51b000cdd0a838c0548fb2ac1e085d82",
+  "training_seconds": 1119.2403909000004
+}

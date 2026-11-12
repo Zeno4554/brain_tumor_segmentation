@@ -1,0 +1,8 @@
+{
+  "mode": "whole_volume",
+  "seed": 43,
+  "attempt": 1,
+  "checkpoint": "checkpoints/experiments/normalization_multiseed/whole_volume_seed43/best.pt",
+  "checkpoint_sha256": "48114dc8e454356c5fa7ce9c51c56179cc5212dd4bbb0a56daca0f49576d2484",
+  "training_seconds": 1122.2067304000002
+}

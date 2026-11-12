@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "jobs": [
+    {
+      "run": "whole_volume_seed42",
+      "epochs": 30,
+      "fingerprint_verified": true,
+      "metadata_verified": true
+    },
+    {
+      "run": "foreground_nonzero_seed42",
+      "epochs": 30,
+      "fingerprint_verified": true,
+      "metadata_verified": true
+    },
+    {
+      "run": "whole_volume_seed43",
+      "epochs": 30,
+      "fingerprint_verified": true,
+      "metadata_verified": true
+    },
+    {
+      "run": "foreground_nonzero_seed43",
+      "epochs": 30,
+      "fingerprint_verified": true,
+      "metadata_verified": true
+    },
+    {
+      "run": "whole_volume_seed44",
+      "epochs": 30,
+      "fingerprint_verified": true,
+      "metadata_verified": true
+    },
+    {
+      "run": "foreground_nonzero_seed44",
+      "epochs": 30,
+      "fingerprint_verified": true,
+      "metadata_verified": true
+    }
+  ],
+  "validation_patient_rows": 168,
+  "original_checkpoint_fingerprint_verified": true,
+  "original_inference_fingerprint_verified": true,
+  "training_source_fingerprints_verified": true,
+  "transient_windows_lock_retry_verified": true,
+  "foreground_checkpoint_restores_normalization": true,
+  "foreground_demo_callback_passed": true,
+  "legacy_model_callback_passed": true,
+  "deployed_threshold_verified": 0.7,
+  "original_metrics_verified": true,
+  "synthetic_pipeline_smoke_passed": true,
+  "synthetic_smoke_seconds": 10.7,
+  "real_data_pipeline_smoke_passed": true,
+  "real_data_smoke_seconds": 9.583417600002576
+}

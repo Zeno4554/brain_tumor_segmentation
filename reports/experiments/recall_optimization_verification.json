@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "production_artifacts_unchanged": true,
+  "complete_epochs_per_seed": 30,
+  "completed_seeds": 1,
+  "test_patients_evaluated": 0,
+  "original_default_loss_equivalence_verified": true,
+  "shipped_checkpoint_replaced": false
+}

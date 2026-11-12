@@ -1,0 +1,13 @@
+{
+  "low": 0.4,
+  "high": 0.7,
+  "shipped_validation_changes": {
+    "mean_dice": -0.002835536819388196,
+    "pooled_precision": -0.014823793733598434,
+    "pooled_recall": 0.012706476411668999,
+    "false_alarms": 0.0,
+    "missed_slices": 0.0
+  },
+  "passes_same_dice_tolerance": false,
+  "recommendation": "Do not enable on the shipped model: Dice loss exceeds the prespecified 0.002 tolerance. No retuning using shipped results."
+}

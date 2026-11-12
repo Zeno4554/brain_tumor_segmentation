@@ -1,0 +1,23 @@
+{
+  "mean_paired_dice_change": -0.030388108640940832,
+  "matched_seed_dice_changes": {
+    "42": -0.04267686554994099,
+    "43": -0.014896306682887661,
+    "44": -0.03359115368999388
+  },
+  "exploratory_crossed_seed_patient_bootstrap_95_percent_interval": [
+    -0.08634620939737726,
+    0.004067431533334004
+  ],
+  "patients_improved_averaging_seeds": 7,
+  "patients_worsened_averaging_seeds": 7,
+  "consistent_dice_recall_false_alarm_gain": false,
+  "test_patients_evaluated": 0,
+  "validation_patients": 14,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "primary_threshold": 0.7
+}

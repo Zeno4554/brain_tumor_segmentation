@@ -1,0 +1,48 @@
+{
+  "thresholds": [
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7
+  ],
+  "threshold_step": 0.05,
+  "selection_rule": "Highest mean patient-volume Dice on validation patients, ties within 1e-7 favor the threshold closest to 0.5",
+  "selection_patients": [
+    "TCGA_CS_4942_19970222",
+    "TCGA_CS_5396_20010302",
+    "TCGA_CS_6669_20020102",
+    "TCGA_DU_5851_19950428",
+    "TCGA_DU_5874_19950510",
+    "TCGA_DU_6404_19850629",
+    "TCGA_DU_7010_19860307",
+    "TCGA_FG_6689_20020326",
+    "TCGA_HT_7690_19960312",
+    "TCGA_HT_7693_19950520",
+    "TCGA_HT_7694_19950404",
+    "TCGA_HT_7884_19980913",
+    "TCGA_HT_8107_19980708",
+    "TCGA_HT_A5RC_19990831"
+  ],
+  "threshold_reference": 0.5,
+  "checkpoint_sha256": "fda957e3a3cb4b78419099ef9987885648fc35176c59e0dd61bde3873610c247",
+  "test_patients_used_for_selection": 0,
+  "prediction_threshold": 0.7,
+  "validation_mean_dice": 0.8676889429569249,
+  "reference_validation_mean_dice": 0.8659645021262835,
+  "mean_dice_change": 0.0017244408306413828,
+  "exploratory_paired_bootstrap_95_percent_interval": [
+    -0.0012504159399236096,
+    0.004320939997648131
+  ],
+  "validation_patients_improved": 10,
+  "validation_patients_worsened": 4,
+  "validation_patients_unchanged": 0,
+  "applied": true
+}

@@ -1,0 +1,10 @@
+{
+  "screen_passed": false,
+  "confirmed_across_three_seeds": false,
+  "seeds_evaluated": 1,
+  "final": null,
+  "shipped_model_changed": false,
+  "test_patients_evaluated": 0,
+  "decision": "No qualifying follow-up; keep shipped model",
+  "protected_artifacts_unchanged": true
+}

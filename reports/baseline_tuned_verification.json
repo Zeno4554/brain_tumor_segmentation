@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "protected_artifacts_unchanged": true,
+  "existing_metrics_unchanged": true,
+  "cache_reuse_did_not_change_test_receipts_or_predictions": true,
+  "synthetic_smoke_passed": true,
+  "new_notebook_cell_executed": true,
+  "original_notebook_baseline_not_reexecuted": true,
+  "test_patients": 22,
+  "grid_settings": 440
+}
